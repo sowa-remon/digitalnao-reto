@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="shortcut icon" href="./src/imgs/logo-light.svg">
+    <title>Curso Digital de Finanzas | Caroline Sada</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container-fluid">
+            <div class="container-fluid" id="brand-light">
+                <img src="./src/imgs/logo-light.svg" alt="" style="height: 3rem; margin-right: 1rem;">
+                <a class="col-sm-6 col-md-6 col-lg-6 navbar-brand" href="#home">Curso Digital de Finanzas con Caroline Sada</a>
+            </div>
+            <div class="container-fluid" id="brand-dark">
+                <img src="./src/imgs/logo.svg" alt="" style="height: 3rem; margin-right: 1rem;">
+                <a class="col-sm-6 col-md-6 col-lg-6 navbar-brand" href="#home">Curso Digital de Finanzas con Caroline Sada</a>
+            </div>    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav"  style="width: 100%;">
+                <ul class="col-sm-12 col-md-12 col-lg-12 navbar-nav space-evenly">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home" id="link-home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" id="link-about">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#signup" id="link-signup">Regístrate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+
+    <div class="container seccion" id="home">
+        <div class="row">
+            <div class="col-xss-12 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img src="./src/imgs/Financial-Management.svg" alt="Imagen de Ejemplo" style="width: 100%; height: auto;">
+            </div>
+            
+            <div class="col-xss-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 align-center">
+                <h1 class="titulo-light">Toma el Control de tus Finanzas y Aprende a Manejar tu Emprendimiento </h1>
+                <p class="texto-normal-light mt-4">Este curso digital te brindará conocimientos sobre finanzas que te ayudarán a llevar con éxito tu emprendimiento</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container mt-5 seccion" id="about">
+        <div class="row">
+                     
+            <div class="col-xss-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 align-center"> 
+                <div class="p-5">       
+                    <h1 class="titulo">Hola, soy <strong>Caroline Sada</strong></h1>
+                    <p class="texto-normal mt-4">Tengo 34 años y soy licenciada en  Administración de Empresas.</p>
+                    <p class="texto-normal mt-4">Soy una influencer financiera que brinda consejos en la plataforma de TikTok. Me he desempeñado como analista desde hace tres años.</p>
+                    <p class="texto-normal mt-4">Te invito a seguirme en todas mis redes sociales!</p>
+                </div>
+                <div class="d-flex mx-5 space-around align-center">
+                    <a href="tiktok.com">
+                        <img src="./src/imgs/tiktok.svg" alt="TikTok de Caroline" class="red-icon">
+                    </a>
+                    <a href="x.com">
+                        <img src="./src/imgs/x-twitter.svg" alt="Twitter de Caroline" class="red-icon">
+                    </a>
+                    <a href="instagram.com">
+                        <img src="./src/imgs/instagram.svg" alt="Instagram de Caroline" class="red-icon">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-xss-12 col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="row justify-content-center align-center">
+                    <div class="square">.</div>
+                    <img src="./src/imgs/caroline_wbg.png" alt="" id="caroline">    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container seccion" id="signup">
+        <div class="row">
+            <div class= "col-sm-12 col-md-12 col-lg-12">
+
+                <div class="registro">
+                    <h2 class="subtitulo">Regístrate Ahora</h2>
+                    <form action="submit" class="">
+                        <div class="col">
+                            <div class="input-form">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" id="nombre" placeholder="Caroline Sada">
+                            </div>
+                            <div class="input-form">
+                                <label for="correo">Correo Electrónico</label>
+                                <input type="text" id="correo" placeholder="correo@example.com">
+                            </div>
+                            <div class="input-form">
+                                <label for="telefono">Teléfono</label>
+                                <input type="text" id="telefono" placeholder="(Opcional)">
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button type="submit" class="btn btn-form">Registrarme</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="./src/js/main.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</html>

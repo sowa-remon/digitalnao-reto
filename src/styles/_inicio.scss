@@ -1,0 +1,15 @@
+@mixin texto-light{
+    font-family: 'jost';
+    color: $light;
+}
+
+
+.titulo-light{
+    @include texto-light();
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.texto-normal-light{
+ @include texto-light();
+}

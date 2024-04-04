@@ -1,0 +1,35 @@
+
+@mixin texto{
+    font-family: 'jost';
+    color: $dark-green;
+}
+
+.titulo{
+    @include texto();
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.texto-normal{
+ @include texto();
+}
+
+#caroline{
+    height: 25rem;
+    width: auto;
+}
+
+.square{
+    height: 25rem;
+    width: 25rem;
+    background-color: $sage;
+    border-radius: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.red-icon{
+    width: 2rem;
+    height: auto;
+
+}

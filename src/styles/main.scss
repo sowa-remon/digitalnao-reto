@@ -1,0 +1,73 @@
+// Importar Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'variables';
+@import 'inicio';
+@import 'sobremi';
+@import 'registro';
+
+body{
+    background-color: $dark-green;   
+    transition: background-color 0.5s ease-in-out;    
+    padding-bottom: 10rem;  
+}
+
+.seccion{
+    padding-top: 10rem;
+}
+
+.navbar{
+    background-color: $dark-green;
+    transition: background-color 0.5s ease-in-out;   
+    padding: 3rem;
+    margin: 0;
+}
+
+
+.nav-link{
+    font-family: 'cabin';
+    font-weight: bold;
+    color: $sage;
+}
+
+.navbar .nav-link.active{
+    color: $light;
+}
+
+#brand-light{
+    display: block;
+    transition: display 0.5s ease-out;
+}
+
+#brand-dark{
+    display:none;
+    transition: display 0.5s ease-out;
+}
+
+#brand-light .navbar-brand{
+    font-family: 'cabin';
+    color: $light;
+}
+
+#brand-dark .navbar-brand{
+    font-family: 'cabin';
+    color: $dark-green;
+}
+
+.center{
+    justify-content: center;
+}
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.align-center{
+    align-content: center;
+}

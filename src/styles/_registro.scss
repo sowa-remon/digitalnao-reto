@@ -1,0 +1,44 @@
+
+.registro{
+    background-color: $light;
+    padding: 4rem 6rem;
+    border-radius: 3rem;
+    margin: 1rem  5rem;
+}
+
+.subtitulo{
+    font-family: 'cabin';
+    font-weight: bold;
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+label{
+    font-family: 'jost';
+    font-weight: 600;
+}
+
+input{
+    background: none;
+    border: 2px $light;
+    border-bottom:solid $dark-green;
+    color: $green;
+    margin-top: .5rem;
+}
+
+input::placeholder{
+    color: $sage;
+}
+
+.btn-form{
+    background-color: $dark-green;
+    border-radius: 10px;
+    color: $light;
+    font-family: 'jost';
+    font-weight: bold;
+    padding: .5rem 1rem;
+}
