@@ -34,6 +34,11 @@ input::placeholder{
     color: $sage;
 }
 
+.invalid-feedback{
+    display: none;
+    align-self: flex-end;
+}
+
 .btn-form{
     background-color: $dark-green;
     border-radius: 10px;
