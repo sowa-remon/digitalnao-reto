@@ -33,3 +33,26 @@
     height: auto;
 
 }
+
+
+@media screen and (max-width: 600px) {
+    #caroline {
+        height:15rem;
+    }
+    .square{
+        height: 15rem;
+        width: 15rem;
+        background-color: $sage;
+        border-radius: 100%;
+        z-index: -1;
+        position: absolute;
+    }
+    
+.red-icon{
+    width: 1.5rem;
+    margin-bottom: 1rem;
+    height: auto;
+
+}
+    
+  }

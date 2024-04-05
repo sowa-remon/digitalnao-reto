@@ -1,10 +1,18 @@
 
+
 .registro{
     background-color: $light;
     padding: 4rem 6rem;
     border-radius: 3rem;
     margin: 1rem  5rem;
 }
+
+@media screen and (max-width: 600px) {
+    .registro {
+      margin: 0;
+      padding: 2rem;
+    }
+  }
 
 .subtitulo{
     font-family: 'cabin';
@@ -32,11 +40,6 @@ input{
 
 input::placeholder{
     color: $sage;
-}
-
-.invalid-feedback{
-    display: none;
-    align-self: flex-end;
 }
 
 .btn-form{

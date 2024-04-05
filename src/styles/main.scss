@@ -15,6 +15,8 @@ body{
     padding-top: 10rem;
 }
 
+
+
 .navbar{
     background-color: $dark-green;
     transition: background-color 0.5s ease-in-out;   
@@ -71,3 +73,20 @@ body{
 .align-center{
     align-content: center;
 }
+
+#home-image{
+    width: 100%; 
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .seccion {
+        padding-top: 12rem;
+    }
+    #home-image{
+        width: 80%;
+        height: auto;
+    }
+
+    
+  }

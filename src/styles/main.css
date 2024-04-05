@@ -12016,6 +12016,24 @@ textarea.form-control-lg {
   height: auto;
 }
 
+@media screen and (max-width: 600px) {
+  #caroline {
+    height: 15rem;
+  }
+  .square {
+    height: 15rem;
+    width: 15rem;
+    background-color: #ADBC9F;
+    border-radius: 100%;
+    z-index: -1;
+    position: absolute;
+  }
+  .red-icon {
+    width: 1.5rem;
+    margin-bottom: 1rem;
+    height: auto;
+  }
+}
 .registro {
   background-color: #FBFADA;
   padding: 4rem 6rem;
@@ -12023,6 +12041,12 @@ textarea.form-control-lg {
   margin: 1rem 5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .registro {
+    margin: 0;
+    padding: 2rem;
+  }
+}
 .subtitulo {
   font-family: "cabin";
   font-weight: bold;
@@ -12129,4 +12153,19 @@ body {
 
 .align-center {
   align-content: center;
+}
+
+#home-image {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .seccion {
+    padding-top: 12rem;
+  }
+  #home-image {
+    width: 80%;
+    height: auto;
+  }
 }/*# sourceMappingURL=main.css.map */
